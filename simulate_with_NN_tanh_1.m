@@ -39,7 +39,7 @@ x_now = x;
 
 % Start simulation
 for ct = 1:(Duration/Ts) 
-     u = NN_output_tanh(x_now,0,1,'nn_tanh_1');
+     u = NN_output_tanh(x_now,0,1,'NN/nn_tanh_1');
      u_his = [u_his,u];
 
      
