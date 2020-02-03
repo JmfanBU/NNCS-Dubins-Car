@@ -84,5 +84,5 @@ fig_pos = fig.PaperPosition;
 fig.PaperSize = [fig_pos(3) fig_pos(4)];
 text(0, 0.7, 'L=17.1', 'FontSize',18);
 text(0, 0.1, 'tanh', 'FontSize',18);
-print(fig,'./Benchmarks/benchmark_tanh_origin','-dpdf')
-export_fig ./Benchmarks/benchmark_tanh_origin.pdf
+print(fig,'./Benchmarks/benchmark_tanh_1','-dpdf')
+export_fig ./Benchmarks/benchmark_tanh_1.pdf
