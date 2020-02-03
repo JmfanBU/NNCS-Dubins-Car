@@ -1,5 +1,14 @@
 # NNCS-Dubins-Car
-This repository contains NNCSs of dubins car control. The environment is a hallway with one corner. The controller drives the vehicle to turn at the first corner and avoids the obstacle in the middle of the hallway.
+This repository contains NNCSs of dubins car control. The environment is a hallway with one corner. The controller drives the vehicle to turn at the first corner and avoids the obstacle in the middle of the hallway. The code is implemented in MATLAB.
+
+## Simulation of NNCS
+
+Open Matlab and run
+
+```
+simulate_with_NN_*
+```
+Replace the star part with the different suffix of .m file.
 
 ## Neural-Network Controller
 Six different networks are provided in this repo. Three of them use tanh activation functions, and three of them use various activation functions (ReLU-tanh). The main difference between them is the value of Lipschitz constant. The networks are stored in NN. The format is as follows:
