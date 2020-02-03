@@ -10,6 +10,8 @@ simulate_with_NN_*
 ```
 Replace the star part with the different suffix of .m file.
 
+The plotted trajectoreis and environment is stored in Benchmarks/*.pdf with the same filename.
+
 ## Neural-Network Controller
 Six different networks are provided in this repo. Three of them use tanh activation functions, and three of them use various activation functions (ReLU-tanh). The main difference between them is the value of Lipschitz constant. The networks are stored in NN. The format is as follows:
 ```
